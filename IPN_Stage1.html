@@ -90,14 +90,20 @@
       <li class="TOC">
         <a href="#Unit-3.2">Unit Three.Two</a>
         <ul>
-          <li><a href="#3.usefunc">Use Functions</a></li>
-          <li><a href="#3.class">Classes</a></li>
+          <li><a href="#3.lib">Library</a></li>
+          <li><a href="#3.mod">Modules</a></li>
         </ul>
       </li>
       <li class="TOC">
         <a href="#Unit-3.4">Unit Three.Four</a>
           <ul>
           <li><a href="#3.OOP">OOP</a></li>
+        </ul>
+      </li>
+      <li class="TOC">
+        <a href="#Unit-4.1">Unit Four.One</a>
+          <ul>
+          <li><a href="#4.Network">Networking</a></li>
         </ul>
       </li>
       </ol>
@@ -903,26 +909,59 @@
     </div>
  <div class="unit" id="Unit-3.2">
    <h2>Unit Three.Two</h2>
-    <div class="section" id="3.usefunc">
+      <div class="section" id="3.lib">
        <div class="section-title">
-            Use Functions
+            Libraries
        </div>
         <div class="notes">
           <p>
-            Python has a built-in library called the <a href="https://docs.python.org/2/library/os.html">Python Standard Library</a> from which functions can be imported.  By importing pre-built functions, such as time and webbrowser, to incorporate within their own functions, programmers can save time and effort.  A <b>module</b> is a file of code that can be imported into various other projects, making it reusable. Put a bunch together and you can call it a library.   
+            Python has a built-in library called the <a href="https://docs.python.org/2/library/os.html">Python Standard Library</a> from which functions can be imported.  By importing pre-built functions, such as time and webbrowser, to incorporate within their own code, programmers can save time, effort, and errors.  
+          </p> 
+        </div>
+      </div>
+      <div class="section" id="3.mod">
+       <div class="section-title">
+            Modules
+       </div>
+        <div class="notes">
+          <p>   
+          <p>
+            A <b>module</b> is a file of code that can be imported into various other projects, making it reusable. Put a bunch together and you can call it a library.   
           </p>
             <div class ="code_box">
-              <img src="Break_Rename_Code.jpg" alt="Python Code Example" style="width:600px;height:500px">
+              <img src="Break_Rename_Code.jpg" alt="Python Code Example" style="width:600px;height:500px"> <!--Left that in my computer-->
             </div>
+          </div>
+        </div>
+      <div class="section">
+       <div class="section-title">
+            Exceptions
+       </div>
+        <div class="notes">
+          <p>      
           <p>
             <a href ="http://www.tutorialspoint.com/python/python_exceptions.htm">Exceptions</a> are events that disrupt the execution of a program.
           </p>
+        </div>
+      </div>
+      <div class="section">
+       <div class="section-title">
+            Abstraction
+       </div>
+        <div class="notes">
+          <p>  
           <p>
-            <b>Abstraction</b> is the mystery behind how imported functions work.That is, one doesn't need to know how a class or method works to utilize it.  
+            <b>Abstraction</b> is the mystery behind how imported functions work. That is, one doesn't need to know how a class or method works to utilize it.  OOP saves time with this concept because programmers can find something that they know works and import it into their code. Classes, for instance, saved in libraries and modules. Abstraction is an idea prevalent throughout programming, even into HTML and CSS.  By putting together small pieces that already work, or perform a certain task, one can create a bigger program faster, easier, and with (hopefully) fewer areas to debug.  
+          </p>
+          <p>
+            Complexity is reduced to simple, pertinent components with abstraction in OOP.  
+          </p>
+           <p>
+            Abstraction is one of three central principals in OOP.  The other two being Encapsulation and Inheritance.
           </p>
         </div>
       </div>
-      <div class="section" id="3.class">
+      <div class="section">
        <div class="section-title">
             Classes
        </div>
@@ -933,51 +972,115 @@
         </div>
       </div>
     </div>
-  <div class="unit" id="Unit-3.4">
+ <div class="unit" id="Unit-3.4">
    <h2>Unit Three.Two</h2>
       <div class="section" id="3.OOP">
        <div class="section-title">
-            Object Oriented Programming
+            Object Oriented Programming, Similarities to CSS, Inheritance, Extension, Benefits to large projects
        </div>
         <div class="notes">
           <p>
-            OOP involves working with structures of data and methods, objects, rather than actions and logic.  Just like CSS can be used to give all similar structures the same visual attributes, OOP can be used to give similar data sets the same functionality.  Each concept has defined characteristics and ways of working with it, and from that one definition each particular instance or object can be manipulated. Just like CSS. By defining concepts, when changes need to be implemented only the concept must be altered, not each instance of it.  Just like CSS. Similarly, the programmer can take his class codes and reuse them in different applications.  And if that code already works, there's saved time and energy.  If that's not enough, thanks to inheritance, OOP lends itself to easy extension. Overarching traits are passed down, and with a few minor adaptations, new additions can be created.  So, large projects become manageable.
+            OOP involves working with structures of data and methods, objects, rather than actions and logic.  Just like CSS can be used to give all similar structures the same visual attributes, OOP can be used to give similar data sets the same functionality.  Each concept has defined characteristics and ways of working with it, and from that one definition each particular instance or object can be manipulated. Just like CSS. By defining concepts, when changes need to be implemented only the concept must be altered, not each instance of it.  Just like CSS. Similarly, the programmer can take his class codes and reuse them in different applications.  And if that code already works, there's saved time and energy.  If that's not enough, thanks to inheritance, OOP lends itself to easy extension. Overarching traits are passed down, and with a few minor adaptations, new additions can be created.  So, large projects become manageable--again, little pieces added up to bigger buildings.  
           </P>
+        </div>
+      </div>
+      <div class="section">
+       <div class="section-title">
+            Tidbits on Classes
+       </div>
+        <div class="notes">
+          <p>  
           <p>
             Building classes involves two files saved in the same folder (though not completely necessary); one will be the class file while the other will be the use of the class--the latter of which requires the former to be imported.  A convention for defining a class, according to the Google style guide, is to capitalize the first letter of the name: <b>class Movie():</b>
           </p>
+        </div>
+      </div>
+      <div class="section">
+       <div class="section-title">
+            Methods
+       </div>
+        <div class="notes">
+          <p>  
           <p>
-            <b>Methods</b> are functions that take class instances are their first argument--they're part of classes.  There are two different types of methods, bound and unbound.  Bound methods automatically pass in the instance because they belong to instances of a class. Unbound methods have to have the instance passed in as a parameter.  
+            <b>Methods</b> are functions that take class instances as their first argument--they're part of classes.  There are two different types of methods, bound and unbound.  Bound methods automatically pass in the instance because they belong to instances of a class. Unbound methods have to have the instance passed in as a parameter.  
           </p>
+        </div>
+      </div>
+      <div class="section">
+       <div class="section-title">
+            __init__, Instance Variable, Instance Method, Instances
+       </div>
+        <div class="notes">
+          <p>  
           <p>
-            <b>__init__</b>, a special method and <b>constructor</b>, creates space in memory to recall details about the class.  __init__ takes arguments, starting with "self" (or any other word, but self is the convention), comprised of the necessary pieces of information used by the program.  These arguments are defined variables inside the __init__ function, <b>Instance Variables</b>.  Also within the class are <b>Instance Methods</b>, which perform specific tasks when called in the other file.  Within the other file, the use of the class, <b>Instances</b> are created and defined to use the programming saved in the class.
+            <b>__init__</b>, a special method and <b>constructor</b>, creates space in memory to recall details about the class.  __init__ takes arguments, starting with "self" (or any other word, but self is the convention), comprised of the necessary pieces of information used by the program.  These arguments are defined variables inside the __init__ function, <b>Instance Variables</b>.  Also within the class are <b>Instance Methods</b>, which perform specific tasks when called by the program.  Within the program, the use of the class, <b>Instances</b> are created and defined to use the code saved in the class.
           </p>
+        </div>
+      </div>
+      <div class="section">
+       <div class="section-title">
+            Kunal's explanation paraphrased heavily
+       </div>
+        <div class="notes">
+          <p>  
           <p>
             Just to paraphrase/quote Kunal's definition of these terms: A <b>class</b> is like a blueprint that contains data and methods.  We can create multiple <b>instances</b> of a class.  When those are created, the class' <b>constructor</b> gets called. This is the __init__ method, which initializes all the data associated with the instance.  It uses the keyword <b>Self</b>, which is the instance in question. All of the variables associated with the instance are called <b>instance variables</b>.  They are unique and can be accessed with the self keyword within the class, and the instance name outside the class.  All the functions inside the class associated with an instance and take the argument "self" are <b>instance methods</b>.
           </p>
+        </div>
+      </div>
+      <div class="section">
+       <div class="section-title">
+            Class Variables
+       </div>
+        <div class="notes">
+          <p>  
           <p>
             Definitions of variables typically change with each instance, but sometimes the instances share variables--class variables.  <b>Class Variables</b> are defined at the class level, outside the __init__ functions. These shared variables are often times constants--which should be named in all capitalized letters.
           </p>
           <p>
             Python has built-in class variables, such as __doc__, __name__, or __module__.  __doc__ can be used by triple quoting a pertinent comment within the class, and then calling it with the class name and .__doc__.
           </p>
+        </div>
+      </div>
+      <div class="section">
+       <div class="section-title">
+            Inheritance, Method overriding
+       </div>
+        <div class="notes">
+          <p>  
           <p>
             <b>Inheritance</b>, previously discussed in this course with CSS, applies to classes in OOP as well. A child class is written to pass in the parent function. A child class will call the instances of the parent class by calling its __init__ function and can also be overwritten--<b>Method Overriding</b>.  Just like in CSS.  Inheritance can be used to increase efficiency and minimize errors.  It can also be used between classes when they share common variables. A parent method can be called by the child function, but by creating the same method within the child, perhaps adding to it, a <b>method override</b> has occurred.  The child class will supplant it's own method over the parent's.  
           </p>
+        </div>
+      </div>
+      <div class="section">
+       <div class="section-title">
+            More on Classes, and objects, and instances, too
+       </div>
+        <div class="notes">
+          <p>  
           <p>
             Classes are collections of attributes, but objects have specifically defined attributes. Objects are instantiated. Classes are models.  Objects have specific characteristics.  Human would be a class.  Bill would be an object...and an instance.  Instance-Bill and his wife and her sister would be objects.  
           </p>
+        </div>
+      </div>
+      <div class="section">
+       <div class="section-title">
+            CSS and OOP
+       </div>
+        <div class="notes">
+          <p>  
           <p>
             CSS allows for inheritance and classes to be created that can be used in multiple applications. 
           </p>
         </div>
       </div>
     </div>
-  <div class="unit" id="Unit-3.4">
-   <h2>Unit Three.Two</h2>
+ <div class="unit" id="Unit-4.1">
+   <h2>Unit Four.One</h2>
       <div class="section" id="4.Network">
        <div class="section-title">
-            Object Oriented Programming
+            Networking
        </div>
         <div class="notes">
           <p>
